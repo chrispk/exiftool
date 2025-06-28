@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  exiftool:
+    image: exiftool
+    volumes:
+      - './photos:/workdir/photos'
